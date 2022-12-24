@@ -1,0 +1,71 @@
+@media only screen and (min-width: 0px) {
+    .card {
+        height: 480px;
+        width: 90%;
+        margin: 5rem;
+    }
+    .card-image {
+        height: 100%;
+        flex-basis: 50%;
+    }
+    .card-image {
+        height: 50%;
+        flex-basis: 50%;
+    }
+
+    .card-image img {
+        border-radius: 1rem 0 0 1rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .card{
+        flex-direction: row;
+        width: 100%;
+        flex-basis: 45%;
+        height: 50%;
+        margin: 1rem;
+    }
+
+    .card-image {
+        height: 100%;
+        flex-basis: 50%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .card-wrapper {
+        flex-direction: row;
+        display: flex;
+        margin: 1rem;
+        width: 110%;
+    }
+    .card {
+        height: 250px;
+        width: 50.5%;
+    }
+
+    .card-image {
+        height: 100%;
+        flex-basis: 50%;
+    }
+    .logo {
+        display: flex;
+        justify-content: left;
+    
+    }
+
+
+
+
+    
+
+}
